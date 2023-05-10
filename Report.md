@@ -5,7 +5,7 @@ Make sure to go out to at least 100,000 (more are welcome), and you have 10 diff
 
 You are free to write a script to run the program and build your table (then copy that table built into the markdown). If you do that, please include the script into the repo.  Note: merge and quick sorts are going to be explored in the team activity for Module 06. You can start on it now, but welcome to wait.
 
-### Table [^1]
+### Table [^note]
 | N | Bubble | Selection | Insertion | Merge | Quick |
 | :-- | :--: | :--: | :--: | :--: | :--: |
 
@@ -96,12 +96,32 @@ Describe an algorithm that will help you find the coin. We encourage you to use 
 #### 7.2 Time Complexity
 What is the average time complexity of your algorithm? 
 
+### 8. Modern Sort
+Sorting algorithms are still being studied today. They often include a statistical analysis of data before sorting. This next question will require some research, as it isn't included in class content. When you call `sort()` or `sorted()` in Python 3.6+, what sort is it using? 
+
+#### 8.1 Visualize
+Find a graphic / visualiation (can be a youtube video) that demonstrates the sort in action. 
+
+#### 8.2 Big O
+Give the worst and best case time-complexity, and examples that would generate them. 
+
+<hr>
+
+## References
+Add your references here. A good reference includes an inline citation, such as [1] , and then down in your references section, you include the full details of the reference. Computer Science research often uses [IEEE] or [ACM Reference format].
+
+[1] Reference info, date, etc.
+
+
 
 
 
 ## Footnotes:
-[^1]: You will want at least 10 different N values, probably more to see the curve for Merge and Quick. If bubble, selection, and insertion start to take more than a  minute, you can say $> 60s$. 
+[^note]: You will want at least 10 different N values, probably more to see the curve for Merge and Quick. If bubble, selection, and insertion start to take more than a  minute, you can say $> 60s$. 
 
 
 <!-- links moved to bottom for easier reading in plain text (btw, this a comment that doesn't show in the webpage generated-->
 [image markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images
+
+[ACM Reference Format]: https://www.acm.org/publications/authors/reference-formatting
+[IEEE]: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/style_references_manual.pdf
