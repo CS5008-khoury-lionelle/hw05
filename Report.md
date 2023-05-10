@@ -3,17 +3,20 @@
 ## Results Table
 Make sure to go out to at least 100,000 (more are welcome), and you have 10 different values (more welcome). You are welcome to go farther, but given 100,000 can take about 20 seconds using a selection sort on a fast desktop computer, and 200,000 took 77 seconds, you start having to wait much longer the more 0s you add. However, to build a clearer line, you will want more data points, and you will find merge and quick are able to handle higher numbers easier (but at a cost you will explore below). 
 
-You are free to write a script to run the program and build your table (then copy that table built into the markdown). If you do that, please include the script into the repo.  Note: merge sort is going to be completed in the workshop for Module 06. You can start on it now, but welcome to wait.
+You are free to write a script to run the program and build your table (then copy that table built into the markdown). If you do that, please include the script into the repo.  Note: merge and quick sorts are going to be explored in the team activity for Module 06. You can start on it now, but welcome to wait.
 
-### Table
+### Table [^1]
 | N | Bubble | Selection | Insertion | Merge | Quick |
 | :-- | :--: | :--: | :--: | :--: | :--: |
+
+
+
 
 
 ## BigO Analysis  / Questions
 
 ### 1. Build a line chart
-Build a line chart using your favorite program. Your X axis will be N increasing, and your Y access will be the numbers for each type of sort. This will create something similar to the graph in the instructions, though it won't be as smooth.
+Build a line chart using your favorite program. Your X axis will be N increasing, and your Y access will be the numbers for each type of sort. This will create something similar to the graph in the instructions, though it won't be as smooth. Due to speed differences, you may need to break up the $O(\log n)$ and $O(n^2)$ into different charts.
 
 Include the image in your markdown. As a reminder, you save the image in your repo, and use [image markdown].
 
@@ -93,6 +96,11 @@ Describe an algorithm that will help you find the coin. We encourage you to use 
 #### 7.2 Time Complexity
 What is the average time complexity of your algorithm? 
 
+
+
+
+## Footnotes:
+[^1]: You will want at least 10 different N values, probably more to see the curve for Merge and Quick. If bubble, selection, and insertion start to take more than a  minute, you can say $> 60s$. 
 
 
 <!-- links moved to bottom for easier reading in plain text (btw, this a comment that doesn't show in the webpage generated-->
